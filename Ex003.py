@@ -1,12 +1,12 @@
 #Create one program what read two numbers and show the sum between them
 
-# Define uma função chamada 'somar_valores' que realiza a soma de dois números digitados pelo usuário
+# Define one function call 'somar_valores' what performs the sum of two number typed for the user
 def somar_valores():
-    # Solicita ao usuário que digite o primeiro e segundo valor e armazena como string
+    # Requests to the user what totype the first and second value and stores as string
     valor_um = input('Digite o primeiro valor: ') 
     valor_dois = input('Digite o segundo valor: ') 
 
-    # Verifica se os dois valores digitados são compostos apenas por dígitos (números inteiros positivos)
+    # Check if the two value requests they are compounds only of digits(number int positive)
     if valor_um.isdigit() and valor_dois.isdigit():
         valor_um_int = int(valor_um) # Converte as strings para inteiros
         valor_dois_int = int(valor_dois) # Converte as strings para inteiros
