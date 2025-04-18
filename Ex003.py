@@ -8,12 +8,12 @@ def somar_valores():
 
     # Check if the two value requests they are compounds only of digits(number int positive)
     if valor_um.isdigit() and valor_dois.isdigit():
-        valor_um_int = int(valor_um) # Converte as strings para inteiros
-        valor_dois_int = int(valor_dois) # Converte as strings para inteiros
-        soma = valor_um_int + valor_dois_int # Calcula a soma dos dois valores
-        print(f'A soma entre {valor_um_int} e {valor_dois_int} = {soma}') # Exibe o resultado formatado
+        valor_um_int = int(valor_um) # Converting strings for integers
+        valor_dois_int = int(valor_dois) 
+        soma = valor_um_int + valor_dois_int # Calculate the sum of the two values
+        print(f'A soma entre {valor_um_int} e {valor_dois_int} = {soma}') # displays the result formatted
     else:
-        # Caso um ou ambos os valores não sejam válidos, exibe uma mensagem de erro
+        # Case one or both the values not be valid, displays one mesage of error
         print('Valor inválido. Digite um valor válido.')
 
-somar_valores() # Chama a função para ser executada
+somar_valores() # call the function for to be executed
