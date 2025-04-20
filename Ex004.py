@@ -1,8 +1,8 @@
-#Crie um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informacoes possiveis sobre ele
+# Create a program what read something on the keyboard and show in screen the your type primitive and all information possible on she
 
-# Define uma função chamada 'destrinchando_string' que recebe um argumento chamado 'frase'
+# Define a function called 'destrinchando_string' what receive a argument call 'frase'
 def destrinchando_string(frase):
-    # Verifica se a frase não está vazia
+    # Check if the phrase not this empty
     if frase:
         # Exibe a string informada com uma quebra de linha
         print(f'\nAnalisando o valor: "{frase}"\n')

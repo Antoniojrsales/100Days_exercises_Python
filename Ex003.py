@@ -1,6 +1,6 @@
-#Create one program what read two numbers and show the sum between them
+# Create a program what read two numbers and show the sum between them
 
-# Define one function call 'somar_valores' what performs the sum of two number typed for the user
+# Define a function called 'somar_valores' what performs the sum of two number typed for the user
 def somar_valores():
     # Requests to the user what totype the first and second value and stores as string
     valor_um = input('Digite o primeiro valor: ') 
