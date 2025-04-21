@@ -4,36 +4,19 @@
 def destrinchando_string(frase):
     # Check if the phrase not this empty
     if frase:
-        # Exibe a string informada com uma quebra de linha
-        print(f'\nAnalisando o valor: "{frase}"\n')
-        
-        # Exibe o tipo primitivo da variável (deve ser 'str' no caso de entrada via input)
-        print(f'Tipo primitivo: {type(frase).__name__}')
-        
-        # Verifica se a string contém apenas espaços
-        print(f'Só tem espaços? {frase.isspace()}')
-        
-        # Verifica se a string é composta apenas por números
-        print(f'É um número? {frase.isnumeric()}')
-        
-        # Verifica se a string é composta apenas por letras
-        print(f'É alfabético? {frase.isalpha()}')
-        
-        # Verifica se a string é composta apenas por letras e números (sem espaços ou símbolos)
-        print(f'É alfanumérico? {frase.isalnum()}')
-        
-        # Verifica se a string está toda em letras maiúsculas
-        print(f'Está em maiúsculas? {frase.isupper()}')
-        
-        # Verifica se a string está toda em letras minúsculas
-        print(f'Está em minúsculas? {frase.islower()}')
-        
-        # Verifica se a string está capitalizada (primeira letra maiúscula e o restante minúsculo)
-        print(f'Está capitalizado (inicial maiúscula)? {frase.istitle()}')
+        print(f'\nAnalisando o valor: "{frase}"\n') # Analysing the value
+        print(f'Tipo primitivo: {type(frase).__name__}') # The type primitve
+        print(f'Só tem espaços? {frase.isspace()}') # Only have space
+        print(f'É um número? {frase.isnumeric()}') # And a number
+        print(f'É alfabético? {frase.isalpha()}') # It's alphabetical
+        print(f'É alfanumérico? {frase.isalnum()}') # It's alphanumeric
+        print(f'Está em maiúsculas? {frase.isupper()}') # It's in capital letters
+        print(f'Está em minúsculas? {frase.islower()}') # It's in lowercase letters
+        print(f'Está capitalizado (inicial maiúscula)? {frase.istitle()}') # It's capitalized
     
-    # Caso a entrada esteja vazia (usuário apenas apertou Enter)
+    # Case the entry be empty (user pressed Enter)
     else:
         print('Erro: favor digitar algo.')
 
-# Solicita uma entrada do usuário e chama a função para analisar a string
+# Requests a entry of user and call the function for to analyze the string
 destrinchando_string(input('Digite algo: '))
