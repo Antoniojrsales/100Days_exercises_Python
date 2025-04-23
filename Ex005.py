@@ -1,10 +1,10 @@
-#Crie um programa que leia um numero inteiro e mostre na tela o seu sucessor e seu antecessor
+#Create a program what read a number interger and show in screen the your successor and its prececessor
 
-# Define a função que calcula o antecessor e o sucessor de um número
+# Define the function what calculate the successor and its prececessor of a number
 def sucessor_antecessor():
-    # Loop infinito para repetir até o usuário digitar um valor válido
+    # Loop infinite for repeat until the user to type a value valid
     while True:
-        numero = input('Digite um numero: ')# Solicita ao usuário que digite um número
+        numero = input('Digite um numero: ')# Solicita ao usuário que digite um valor
         # Verifica se a entrada e valida e converte o valor para um número inteiro
         if numero and numero.isdigit():
             numero_int = int(numero)
