@@ -7,10 +7,12 @@ def pintura(area):
     return area / 2
 
 while True:
+    print('='*7,'Conversor Pintura','='*7)    
     largura = input('Digite a largura da parede: ')    
     altura = input('Digite a altura da parede: ')
 
     try:
+        print('='*14,'Resultado','='*14) 
         largura_float = float(largura)
         altura_float = float(altura)
         area = conversao_area(largura_float, altura_float)
@@ -22,3 +24,4 @@ while True:
     except ValueError:
         print('Erro: Por favor, digite um número válido.')
 
+print("\nPrograma finalizado.")
