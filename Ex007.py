@@ -1,6 +1,6 @@
-# Crie um programa que leia duas notas e de um aluno e calcule e mostre a sua media
+# Create a program what read two notes of a student, calculate and show your average
 
-# Define a função que calculará a média de duas notas
+# Define the function what will calculate the average of the two notes
 def media():
     try:
         # Solicita ao usuário a primeira nota e converte para float
