@@ -1,14 +1,14 @@
-# Crie um programa que leia um valor em metros e o exiba convertindo em centimentros e milimetros
+# Create a program what read a value in meters and display it converted in centimeters and milimeters
 
-# Define uma função chamada 'converter_medidas' que recebe um valor em metros como argumento.
+# Define a function call 'converter_medidas' what receive a value in meters as an argument.
 def converter_medidas(metros):    
-    km = metros / 1000# Calcula o valor em quilômetros.    
-    hm = metros / 100# Calcula o valor em hectômetros.    
-    dam = metros / 10# Calcula o valor em decâmetros.    
-    dm = metros * 10# Calcula o valor em decímetros.    
-    cm = metros * 100# Calcula o valor em centímetros.    
-    mm = metros * 1000# Calcula o valor em milímetros.
-    # Retorna todos os valores convertidos em uma tupla.
+    km = metros / 1000    
+    hm = metros / 100    
+    dam = metros / 10    
+    dm = metros * 10    
+    cm = metros * 100    
+    mm = metros * 1000
+    # Return all the values converted in a tupla.
     return km, hm, dam, dm, cm, mm
 
 # Inicia um loop infinito que continuará até que uma entrada válida seja fornecida.

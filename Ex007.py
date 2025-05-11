@@ -3,10 +3,8 @@
 # Define the function what will calculate the average of the two notes
 def media():
     try:
-        # Prompts user for first note and converts to float
+        # Prompts user for first/second note and converts to float
         nota_um = float(input('Digite a primeira nota do aluno: '))
-        
-        # Prompts user for second note and converts to float
         nota_dois = float(input('Digite a segunda nota do aluno: '))
         
         # Calculate the average of notes
