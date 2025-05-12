@@ -11,15 +11,14 @@ def converter_medidas(metros):
     # Return all the values converted in a tupla.
     return km, hm, dam, dm, cm, mm
 
-# Inicia um loop infinito que continuará até que uma entrada válida seja fornecida.
+# starting the loop infinite.
 while True:
-    # Solicita ao usuário que digite uma distância em metros e armazena a entrada como uma string.
     distancia = input('Digite uma distancia em metros: ')
-    # Utiliza um bloco try-except para lidar com possíveis erros de conversão de tipo.
+    # Using a block try-except.
     try:
-        # Tenta converter a string de entrada para um número de ponto flutuante (permite decimais).
+        # Try convert the entry for a number of floating point.
         distancia_metros = float(distancia)
-        # Chama a função 'converter_medidas' com o valor em metros
+        # Call the function 'converter_medidas'
         km, hm, dam, dm, cm, mm = converter_medidas(distancia_metros)
         
         print(f'\nAnalisando a distancia digitada {distancia_metros}mts:')
@@ -29,10 +28,10 @@ while True:
         print(f'Dm: {dm:.1f}')
         print(f'Cm: {cm:.1f}')
         print(f'Mm: {mm:.1f}')
-        # Se a conversão e a impressão ocorrerem sem erros, o loop é interrompido.
+        # Ends the block if all you are correct.
         break
 
-    # Captura a exceção ValueError, que ocorre se a entrada do usuário não puder ser convertida para um número.
+    # If not, capture the exception ValueError, what occurs if the entry of user not can be converted for a valid number.
     except ValueError:
         print('Erro: Por favor, digite um número válido.')
 
